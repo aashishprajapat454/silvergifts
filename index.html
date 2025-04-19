@@ -1,0 +1,149 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silver Gifts</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">SilverGifts</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Elegant Silver Gifts</h1>
+      <p>Pure. Beautiful. Memorable.</p>
+      <a href="#products" class="btn">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section class="highlights">
+    <div class="highlight-box">✅ Pure Silver</div>
+    <div class="highlight-box">🚚 Free Shipping</div>
+    <div class="highlight-box">🎁 Gift Packed</div>
+    <div class="highlight-box">🛡️ BIS Hallmarked</div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p class="sub-heading">Timeless Silver Creations Crafted with Passion</p>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          At <strong>SilverGifts</strong>, we believe that every gift should speak from the heart.
+          Our journey began with a simple idea — to blend traditional craftsmanship with modern elegance.
+          Each item is handcrafted using pure silver, designed to make your occasions unforgettable.
+        </p>
+        <p>
+          Whether it's a wedding, anniversary, birthday, or festive celebration — our silver gifts are curated to bring
+          smiles, blessings, and memories that last forever.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="/silverGift.jpg" alt="About Silver Gifts" />
+      </div>
+    </div>
+  </section>
+  <section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="products/bracelet.jpg" alt="Silver Ring" />
+        <h3>bracelet</h3>
+        <!-- <p>₹999</p> -->
+      </div>
+      <div class="product-card">
+        <img src="products/godFram.jpg" alt="Silver Bowl" />
+        <h3>Silver godFram</h3>
+        <!-- <p>₹1299</p> -->
+      </div>
+      <div class="product-card">
+        <img src="products/silver vase.jpg" alt="Silver Coin" />
+        <h3>Silver vase</h3>
+        <!-- <p>₹499</p> -->
+      </div>
+      <div class="product-card">
+        <img src="products/Gold nicklase.jpg" alt="Silver Spoon" />
+        <h3>Gold Nicklase</h3>
+        <!-- <p>₹799</p> -->
+      </div>
+    </div>
+    <a href="/products.html" class="btn see-all-btn">See All Products</a>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Have Questions?</h2>
+    <p>We’re here to help you pick the perfect silver gift.</p>
+    <a href="https://wa.me/+918319214166" class="btn contact-btn" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+    </a>
+
+    <div class="social-links">
+      <a href="mailto:your-email@example.com" class="btn email-btn">
+        <i class="fa fa-envelope"></i> Email Us
+      </a>
+      <a href="https://www.instagram.com/silver_giftarticlejewells/#" class="btn instagram-btn" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Follow on Instagram
+      </a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="/silverGift.jpg" alt="SilverGifts Logo" />
+    </div>
+
+    <div class="footer-links">
+      <h3>Important Links</h3>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Returns Policy</a></li>
+        <!-- <li><a href="#">Track Your Order</a></li> -->
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="contact-info">
+      <h3>Contact Us</h3>
+      <p><strong>Call Us: </strong><a href="tel:+918319214166">+918319214166</a></p>
+    </div>
+
+    <div class="social-media">
+      <h3>Follow Us</h3>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/silver_giftarticlejewells/#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 SilverGifts. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+</body>
+
+</html>
